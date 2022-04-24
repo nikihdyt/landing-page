@@ -27,7 +27,7 @@ body {
 
 /* MARKETING CONTENT */
 .main-page {
-    background-image: url(img/main-page.jpg);
+    background-image: url(img/main-page.webp);
     background-size: cover;
     height: 600px;
 }
