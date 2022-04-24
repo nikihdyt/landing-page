@@ -4,4 +4,7 @@ body {
 .carousel-item {
     height: 305px;
     background: rgba(196, 196, 196, 0.1);
+    position: relative;
+    background-position: center;
+    background-size: cover;
 }
