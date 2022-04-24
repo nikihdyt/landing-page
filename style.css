@@ -1,10 +1,54 @@
 body {
-    /* background-image: url(img/main-page.jpg); */
+    font-family: 'Inter';
+    font-style: normal;
 }
+
+/* COSTUMIZE NAVBAR */
+.nav-highlighted {
+    background-color: #4654D2;
+    border-radius: 50px;
+}
+
+/* COSTUMIZE CAROUSEL */
 .carousel-item {
     height: 305px;
-    background: rgba(196, 196, 196, 0.1);
+    background: #000;
     position: relative;
     background-position: center;
     background-size: cover;
+}
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+/* MARKETING CONTENT */
+.main-page {
+    background-image: url(img/main-page.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.main-page-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    align-items: center;
+    letter-spacing: 0.02em;
+    -webkit-text-stroke: 0.2 black;
+}
+.do-more {
+    color: #fff;
+}
+.by {
+    color: #ACA5FF;
+}
+.doing-less {
+    color: #FFF859;
+}
+.btn-primary {
+    background: radial-gradient(50% 50% at 50% 50%, #C16EB4 11.98%, #3378FF 100%);
 }
