@@ -1,0 +1,7 @@
+body {
+    /* background-image: url(img/main-page.jpg); */
+}
+.carousel-item {
+    height: 305px;
+    background: rgba(196, 196, 196, 0.1);
+}
